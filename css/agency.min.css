@@ -142,7 +142,7 @@ border:7px solid #e9ecef;border-radius:100%;background-color:#fed136}
         .team-member img{width:225px;height:225px;border:7px solid #fff}
         .team-member h4{margin-top:25px;margin-bottom:0;text-transform:none}
         .team-member p{margin-top:0}
-        section#contact{background-color:#212529;background-image:url(../img/map-image.png);background-repeat:no-repeat;background-position:center}
+        section#contact{background-color:#3A2F5c;background-image:url(../img/map-image.png);background-repeat:no-repeat;background-position:center}
         section#contact .section-heading{color:#fff}section#contact .form-group{margin-bottom:25px}
         section#contact .form-group input,section#contact .form-group textarea{padding:20px}
         section#contact .form-group input.form-control{height:auto}
@@ -164,6 +164,6 @@ height:40px;
 -moz-transition:all .3s;
 transition:all .3s;
 color:#fff;
-border-radius:100%;outline:0;background-color:#212529}
+border-radius:100%;outline:0;background-color:#3A2F5c}
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
 background-color:#fed136}
