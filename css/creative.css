@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Creative v5.0.3 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
 
 body,
 html {
@@ -316,54 +311,78 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(144, 74, 190, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(153, 72, 207, 0.5) !important;
+  section {
+    padding: 100px 0;
+    text-align: center;
+}
+select.frecuency {
+    border: none;
+    font-style: italic;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+    border-bottom: none;
+}
+select.frecuency:focus {
+    outline: none;
+    border-bottom: 5px solid #22313F;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+}
+.free {
+    text-transform: uppercase;
+}
+.input-group {
+    margin: 20px auto;
+    width: 100%;
+}
+input.btn.btn-lg {
+    width: 60%;
+    height: 60px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn {
+    width: 40%;
+    height: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.promise {
+    color: #999;
+}
+#mc_embed_signup { border: none; text-align: center; width: 100%; } /* Signup form container */
+
+.mc-field-group { display: inline-block; } /* positions input field horizontally */
+
+#mce-EMAIL { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1em; border: 2px solid #ABB0B2 ; color: #343434; background-color: #fff; padding: .7em 9em .7em 1em; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Input Styles */
+
+.clear { display: inline-block; } /* positions button horizontally in line with input */
+
+.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1em; letter-spacing: .03em; color: #fff; background-color: rgb(106, 35, 200) ; padding: .7em 2em; border: 2px solid rgb(65, 35, 200) ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
+
+:-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
+:-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #ABB0B2 ; } /* Internet Explorer 10+ */
+
+@media (max-width: 768px) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+  
+.mc-field-group { display: block; max-width: 100%; }
+#mce-EMAIL { padding: .7em 0 .7em 1em; width: 96%; margin: 0; }
+.clear { display: block; width: 100% }
+.button { width: 100%; margin: .5em 0 0 0; }
+  
 }
 
-.newsletter-subscribe {
-  background: #fefefe;
-  height: 200px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 0 1rem;
+.container img {
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
 }
-
-.newsletter-subscribe .input-group-field {
-  border-radius: 5000px 0 0 5000px;
-  position: relative;
-  -webkit-transform: translateX(0.5rem);
-      -ms-transform: translateX(0.5rem);
-          transform: translateX(0.5rem);
-}
-
-.newsletter-subscribe .input-group {
-  margin-bottom: 0;
-}
-
-.newsletter-subscribe .newsletter-subscribe-inner {
-  text-align: center;
-}
-
-.newsletter-subscribe .input-group-button .button {
-  border-radius: 5000px;
-  position: relative;
-  -webkit-transform: translateX(-0.5rem);
-      -ms-transform: translateX(-0.5rem);
-          transform: translateX(-0.5rem);
-  min-width: 25vw;
-}
-
-@media print, screen and (min-width: 40em) {
-  .newsletter-subscribe {
-    padding: 0 3rem;
-  }
-}
-
-@media print, screen and (min-width: 64em) {
-  .newsletter-subscribe {
-    padding: 0 6rem;
-  }
-}
-
