@@ -101,16 +101,6 @@ img::-moz-selection {
   background-color: #3a2f5c;
 }
 
-#mainNav .navbar-toggler {
-  font-size: 12px;
-  right: 0;
-  padding: 13px;
-  text-transform: uppercase;
-  color: white;
-  border: 0;
-  background-color: #3a2f5c;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 #mainNav .navbar-brand {
   color: #3a2f5c;
