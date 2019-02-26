@@ -169,11 +169,20 @@ img::-moz-selection {
     color: #aa66cc;
   }
 }
+body {
+  padding-top: 290px;
+}
 
+/*Para dispositivos com width maior ou igual a 768px*/
+@media (min-width: 768px) {
+ body {
+     padding-top: 220px;
+  }
+}
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  padding-top: 80rem;
+  padding-bottom: calc(80rem - 56px);
+  background-image: url("../img/header.png");
   background-position: center center;
   background-size: cover;
 }
@@ -199,9 +208,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
+   
     padding-bottom: 0;
   }
   header.masthead h1 {
