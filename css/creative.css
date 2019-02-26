@@ -180,14 +180,13 @@ body {
   }
 }
 header.masthead {
- 
   background-image: url("../img/header.png");
-
   width: 100%;
   height: auto;
-  
 }
-
+#id.saiba {
+  text-align:center;
+  }
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -375,10 +374,15 @@ button.btn {
 
 .clear { display: inline-block; } /* positions button horizontally in line with input */
 
-.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; 
-  font-size: 1em; letter-spacing: .03em; color: #fff; background-color: rgb(106, 35, 200) ; padding: .7em 2em; 
-  border: 2px solid rgb(65, 35, 200) ; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; 
-  display: inline-block; margin: 0; } /* Button Styles */
+.button { 
+  font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; 
+  font-size: 1em; letter-spacing: .03em; color: #fff; 
+  background-color: rgb(65, 17, 128) ; padding: .7em 2em; 
+  border: 2px solid rgb(27, 13, 90) ; 
+  -webkit-border-radius: 3px;
+   -moz-border-radius: 3px; border-radius: 3px; 
+  display: inline-block; margin: 0; } 
+  /* Button Styles */
 
 :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
 :-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
