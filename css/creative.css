@@ -180,8 +180,8 @@ body {
   }
 }
 header.masthead {
-  padding-top: 80rem;
-  padding-bottom: calc(80rem - 56px);
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
   background-image: url("../img/header.png");
   background-position: center center;
   background-size: cover;
