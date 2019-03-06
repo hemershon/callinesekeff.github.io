@@ -1,29 +1,21 @@
-<?
+<?php
 
-# alterar a variavel abaixo colocando o seu email
+ini_set('display_errors', 1);
 
-$destinatario = "faleconosco@callinesekeff.com.br";
+error_reporting(E_ALL);
 
-$nome = $_REQUEST['nome'];
-$email = $_REQUEST['email'];
-$mensagem = $_REQUEST['mensagem'];
-$assunto = $_REQUEST['assunto'];
+$from = "faleconosco@callinesekeff.com.br";
 
- // monta o e-mail na variavel $body
+$to = "estrategia@callinesekeff.com.br";
 
-$body = "===================================" . "\n";
-$body = $body . "FALE CONOSCO - TESTE COMPROVATIVO" . "\n";
-$body = $body . "===================================" . "\n\n";
-$body = $body . "Nome: " . $nome . "\n";
-$body = $body . "Email: " . $email . "\n";
-$body = $body . "Mensagem: " . $mensagem . "\n\n";
-$body = $body . "===================================" . "\n";
+$subject = "Verificando o correio do PHP";
 
-// envia o email
-mail($destinatario, $assunto , $body, "From: $email\r\n");
+$message = "O correio do PHP funciona bem";
 
-// redireciona para a página de obrigado
-header("location:obrigado.htm");
+$headers = "De:". $from;
 
+mail($to, $subject, $message, $headers);
+
+echo "A mensagem de e-mail foi enviada.";
 
 ?>
