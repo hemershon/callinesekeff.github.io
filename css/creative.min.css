@@ -4,10 +4,13 @@
  a{color:#45174b;-webkit-transition:all .2s;transition:all .2s}
  a:hover{color:#45174b}
  h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}
- .bg-primary{background-color:#3A2F5c!important}
- .bg-dark{background-color:#212529!important}
- .text-faded{color:rgba(255,255,255,.7)}
- section{padding:8rem 0}.section-heading{margin-top:0}
+ .bg-primary{background-color:#3A2F5c!important
+}
+ .bg-dark{background-color:#212529!important
+}
+ .text-faded{color:rgba(255,255,255,.7)
+}
+ section{padding:2rem 0}.section-heading{margin-top:0}
  ::-moz-selection{color:#fff;background:#212529;text-shadow:none}
  ::selection{color:#fff;background:#212529;text-shadow:none}
  img::-moz-selection{color:#fff;background:0 0}
@@ -54,7 +57,9 @@
                              #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{color:#45174b}}
                              header.masthead{
                               background-image: url("../img/header.png");
-                              width: 100%;
+                              max-width:2000px;
+                              max-height:400px;
+                              width: auto;
                               height: auto;}
                                header.masthead hr{
                                  margin-top:30px;
