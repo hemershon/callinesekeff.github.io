@@ -9,15 +9,6 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-hr {
-  max-width: 50px;
-  border-width: 3px;
-  border-color: #aa66cc;
-}
-
-hr.light {
-  border-color: #fff;
-}
 
 a {
   color: #aa66cc;
@@ -106,7 +97,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
+  font-size: .7rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;

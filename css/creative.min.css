@@ -58,13 +58,9 @@
                              header.masthead{
                               background-image: url("../img/header.png");
                               max-width:2000px;
-                              max-height:400px;
-                              width: auto;
-                              height: auto;}
-                               header.masthead hr{
-                                 margin-top:30px;
-                                 margin-bottom:30px
-                                }
+                              max-height:615px;
+                              }
+                            
                              header.masthead h1{
                                font-size:2rem}
                                header.masthead p{font-weight:300}
