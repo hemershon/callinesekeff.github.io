@@ -25,7 +25,7 @@
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-creative.git"
     },
-    "dependencies": {
+    "devdependencies": {
         "@fortawesome/fontawesome-free": "5.7.0",
         "bootstrap": "4.2.1",
         "jquery": "3.3.1",
